@@ -118,10 +118,10 @@ def train(model, train_loader, val_loader, optimizer, device, epochs=300,patienc
 if __name__ == "__main__":
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    model_name = 'hfl/chinese-bert-wwm-ext' # Change this to the model you want
+    tokenizer = BertTokenizer.from_pretrained(model_name)
 
-    tokenizer = BertTokenizer.from_pretrained('hfl/chinese-bert-wwm-ext')
-
-    model = BertForSequenceClassification.from_pretrained('hfl/chinese-bert-wwm-ext', num_labels=11)
+    model = BertForSequenceClassification.from_pretrained(model_name, num_labels=11)
     model.to(device)
 
     # prepare data
