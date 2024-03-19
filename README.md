@@ -1,5 +1,4 @@
-# FineGrainedSuicideDetection
-# Evaluating the Efficacy of Supervised Learning vs. Large Language Models for Identifying Cognitive Distortions and Suicidal Risks in Chinese Social Media
+# Social media suicide fine-grained classification
 
 This is the data and code for the paper: Social media suicide fine-grained classification
 
