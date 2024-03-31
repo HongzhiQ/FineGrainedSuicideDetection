@@ -56,7 +56,7 @@ python ModelTrain/train.py
 ```
 
 ## Performance evaluation
-You could run the following:
+Then you can evaluate like this:
 
 ```python
 python ModelTrain/evaluate.py
