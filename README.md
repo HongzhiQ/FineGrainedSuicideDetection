@@ -47,8 +47,21 @@ model = BertForSequenceClassification.from_pretrained(model_name, num_labels = 1
 
 # Now you can use the model and tokenizer for your task
 
-
 ```
+## Train the model
+You could run the following:
+
+```python
+python ModelTrain/train.py
+```
+
+## Performance evaluation
+You could run the following:
+
+```python
+python ModelTrain/evaluate.py
+```
+
 ## Citation
 
 If this repository helps you, please cite this paper:
